@@ -1,0 +1,15 @@
+*{margin: 0; padding: 0;}
+body{background: url(../images/bg.jpg) no-repeat;}
+a{text-decoration: none;}
+#app .input .username input{border: none;width:300px;height: 30px;margin-top: 40px;outline: none;}
+#app .input .password input{border: none;width:300px;height: 30px;margin-top: 40px;outline: none;}
+#app{background-color: #C0C3C7;width: 500px;height: 700px;;overflow: hidden;margin-top: 5px;background-color: white;line-height: 40px;}
+#app .logo{margin-top: 15px;}
+#app .logo span{font-size: 50px;color: #FE4600;}
+#app .input{float: left;margin-top: 20%;}
+#app .input .username{border-bottom: 1px solid #FE4600;width: 300px;margin-left: 20px;}
+#app .input .password{border-bottom: 1px solid #FE4600;width: 300px;margin-left: 20px;}
+#app .input .content{display: flex;justify-content: space-between;margin-left: 20px;}
+#app .input .content span>a{color: #C0C3C7;}
+#app .center{margin: 0 auto;position: relative;left: 15%;}
+#app .input .button input{position: relative;left: 8px;;width: 280px;align-items: center;margin: 0 auto;height: 40px;border: none;border-radius: 45px;background-color: tomato;}
