@@ -9,7 +9,8 @@ input{font-size: 20px;border: none;background: #F2F4F5;outline: none;width: 80%;
 #main .header .from{width: 60%;background: #F2F4F5;display: flex;align-items: center;border-radius: 8px;}
 #main .header .iconfont{display: flex;align-items: center;}
 #main .body{background-color: #F2F4F5;height: 100%;margin-top: 4px;}
-#main .body .plate01{margin: 5px;padding: 5px;;display: flex;justify-content: space-around;text-align: center;}
+/*#main .body .plate01{margin: 5px;padding: 5px;display: flex;flex-wrap: wrap;justify-content: space-around;text-align: center;}*/
+#main .body .plate01{display: grid;grid-template-columns: auto auto auto auto;text-align: center;}
 #main .fotter{height: 100px;background: #4E525E;}
 #main .fotter .stat .btn{display: flex;justify-content: space-around;}
 #main .fotter .stat p{text-align: center;color: #C0C3C7;position: relative;top:15px;font-size: 12px;}
